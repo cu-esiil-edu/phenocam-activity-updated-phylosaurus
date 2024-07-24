@@ -132,7 +132,7 @@ View(GR_sites)
 **Challenge**: Can you subset the sitelist_table by a different primary vegetation type? How about by a different variable (table column)? Use the code cell below.
 
 ```{r}
-
+DB_sites <- subset(sitelist_table, primary_veg_type == "DB") 
 ```
 
 #### Create a Map of the PhenoCam Sites
@@ -456,3 +456,5 @@ file.remove(f)
 #### Thank you
 
 Thanks for exploring PhenoCam data. Hopefully, you have a stronger appreciation for phenology now!
+
+OK
